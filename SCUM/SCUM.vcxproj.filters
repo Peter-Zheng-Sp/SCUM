@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{abf52dff-c3d9-4559-b9b3-115924898f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp">
+      <UniqueIdentifier>{014c9291-11a4-466a-8fa8-d1f6a1d53e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{e0498942-d384-4b4c-9cfc-9a94e9ba42bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{b67d34d9-b1c8-4d68-863a-f36b995c26a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Read">
+      <UniqueIdentifier>{6ced8ab7-11fe-4332-8a59-91e5a92c3800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{e9f45048-b61a-4ed3-888e-b976dfa80a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp\Headers">
+      <UniqueIdentifier>{89af0d41-a365-44d5-96b7-8ac783a12444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp\Sources">
+      <UniqueIdentifier>{cc646744-23f8-402f-a5f3-402a70334c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detours">
+      <UniqueIdentifier>{dc03d56f-9c50-49f7-aeaf-c178e60b5936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{7db78765-d5a7-40ea-aca8-b37c38f0f8c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Esp\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAlgorithm.cpp">
+      <Filter>Esp\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Esp\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Esp\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Read.cpp">
+      <Filter>Read</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBulletTrack.cpp">
+      <Filter>Esp\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Esp\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAlgorithm.h">
+      <Filter>Esp\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Esp\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>Esp\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Read.h">
+      <Filter>Read</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBulletTrack.h">
+      <Filter>Esp\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBuff.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
